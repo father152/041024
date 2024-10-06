@@ -10,6 +10,7 @@ function App() {
     setLikes((likes -= 1));
   }
 
+  
   return (
     <div className="app">
       <h1>{likes}</h1>
